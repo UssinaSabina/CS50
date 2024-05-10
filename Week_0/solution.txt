@@ -1,0 +1,7 @@
+In this game I created you have to avoid enemy (which is robot) and shoot it using space key. Every successful shooting adds to the score. If robot touches you then the game is over. 
+
+How to use the game:
+- up, down, left, right - for movements
+- a - turn left
+- s - turn right
+- space - shoot
