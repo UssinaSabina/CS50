@@ -2,6 +2,11 @@
 ## Problem to Solve
 Provided to you is a file called ```movies.db```, a SQLite database that stores data from IMDb about movies, the people who directed and starred in them, and their ratings. Write SQL queries to answer questions about this database of movies.
 ## Specification
+In order to download the IMDB database execute:
+```
+wget https://cdn.cs50.net/2023/fall/psets/7/movies.zip
+```
+
 For each of the following problems, you should write a single SQL query that outputs the results specified by each problem. Your response must take the form of a single SQL query, though you may nest other queries inside of your query. You should not assume anything about the ids of any particular movies or people: your queries should be accurate even if the id of any particular movie or person were different. Finally, each query should return only the data necessary to answer the question: if the problem only asks you to output the names of movies, for example, then your query should not also output each movie’s release year.
 
 1. In ```1.sql```, write a SQL query to list the titles of all movies released in 2008.
