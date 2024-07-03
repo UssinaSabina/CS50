@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+
+        <title>Trivia!</title>
+
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3> Which method is used to reduce the dimensionality of data? </h3>
+
+                <button class="incorrect" type="text">Linear regression</button>
+                <button class="correct" type="text">Principal Component Analysis (PCA)</button>
+                <button class="incorrect" type="text">Logistic regression</button>
+                <button class="incorrect" type="text">k-nearest neighbors</button>
+
+                <p id="feedback1"></p>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- free response question -->
+                 <h3>Which method is used to remove whitespace characters from the beginning and end of a string?</h3>
+
+                <input type="text" id="answer"></input>
+                <button id="check">Check answer</button>
+
+                <p id="feedback2"></p>
+
+            </div>
+        </div>
+        <script src="myscript.js"></script>
+    </body>
+
+</html>
